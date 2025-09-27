@@ -9,12 +9,7 @@ project(
   LANGUAGES CXX)
 
 add_executable (main main.cpp)
-target_compile_options(main PUBLIC
-    /opt/homebrew/lib/libglfw.3.4.dylib
-    /usr/local/lib/libvulkan.1.4.321.dylib
-    /usr/local/lib/libvulkan.1.dylib
-    -g
-    )
+target_compile_options(main PUBLIC -g)
 
 target_include_directories(main PUBLIC
     /opt/homebrew/include
