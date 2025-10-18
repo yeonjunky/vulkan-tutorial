@@ -24,4 +24,5 @@ target_link_libraries(main
     /opt/homebrew/lib/libglfw.3.4.dylib
     /usr/local/lib/libvulkan.1.4.321.dylib
     /usr/local/lib/libvulkan.1.dylib
+    /usr/local/lib/libMoltenVK.dylib
 )
