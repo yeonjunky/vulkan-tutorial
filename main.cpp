@@ -167,10 +167,10 @@ class HelloTriangleApplication {
 
     if (enableValidationLayers) {
       extensions.push_back(VK_EXT_DEBUG_UTILS_EXTENSION_NAME);
-#ifdef __APPLE__
-      extensions.push_back("VK_KHR_portability_enumeration");
-#endif
     }
+#ifdef __APPLE__
+    extensions.push_back("VK_KHR_portability_enumeration");
+#endif
 
     return extensions;
   }
