@@ -9,7 +9,7 @@ project(
   LANGUAGES CXX)
 
 add_executable (main main.cpp)
-target_compile_options(main PUBLIC -g)
+target_compile_options(main PUBLIC -g -std=c++17)
 
 target_include_directories(main PUBLIC
     /opt/homebrew/include
